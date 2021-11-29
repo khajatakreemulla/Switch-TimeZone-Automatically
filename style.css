@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100vh;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.timeshown{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.time-and-name{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    background-color: crimson;
+    box-shadow: 1px 4px 5px rgba(15, 114, 212, 0.8);
+}
