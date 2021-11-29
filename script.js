@@ -1,7 +1,7 @@
 
             
 let Timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    
+    document.getElementById("timeshown").innerHTML = Timezone
 document.querySelectorAll(".duration").forEach((data , index)=>{
     date = data.getAttribute("data-date");
     let time = new Date(date)
