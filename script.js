@@ -10,7 +10,7 @@ document.querySelectorAll(".duration").forEach((data , index)=>{
 })
 
 var date = new Date()
-var offset = (date.getTimezoneOffset()/60)
+var offset = -(date.getTimezoneOffset()/60)
 
 document.getElementById("get").innerHTML = Timezone + ("GMT " + offset);
   
