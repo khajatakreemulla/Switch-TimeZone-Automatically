@@ -9,7 +9,10 @@ document.querySelectorAll(".duration").forEach((data , index)=>{
     x[index].innerHTML = time.toLocaleString("en-US", {timeZone: Timezone})
 })
 
-document.getElementById("get").innerHTML = Timezone
+var date = new Date()
+var offset = -(date.getTimezoneOffset()/60)
+
+document.getElementById("get").innerHTML = Timezone + ("GMT +" + offset);
   
 
 
